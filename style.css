@@ -28,7 +28,9 @@ body {
 }
 
 main {
-  margin: 3.875rem 2rem auto;
+  margin: 3.875rem auto 2rem auto;
+  max-height: 46.875;
+  width: auto
 }
 
 header {
@@ -112,7 +114,6 @@ div {
 }
 
 .attribution { 
-    margin-top: 5rem;
     padding: 1rem 0;
     width: 100vw;
     font-size: 0.7rem; 
@@ -125,6 +126,9 @@ div {
     color: hsl(228, 45%, 44%); }
 
 @media screen and (min-width: 1125px) {
+  main {
+  margin: 7rem auto 5rem auto;
+  }
   p.first {
     margin: 1.375rem auto 3rem auto;
   }
